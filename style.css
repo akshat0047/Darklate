@@ -1,0 +1,133 @@
+body,
+html {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+body {
+  z-index: 5;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  background-color: black;
+}
+
+/** TEXT SECTION **/
+
+.main-heading {
+  position: relative;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+.h-1 {
+  font-family: "PT Sans Caption", sans-serif;
+}
+.h-2 {
+  font-family: "PT Sans Caption", sans-serif;
+}
+.t1 {
+  position: relative;
+  color: white;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+/** SECTIONS  START  **/
+.page {
+  display: block;
+  position: absolute;
+  margin: auto;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 100%;
+}
+.home {
+  z-index: 11;
+  opacity: 1;
+  background: linear-gradient(
+      0deg,
+      rgba(10, 10, 10, 0.7),
+      rgba(24, 22, 23, 0.7)
+    ),
+    url("assets/bg/home.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.e_about {
+  z-index: 9;
+  opacity: 0;
+  background-color: rgb(61, 71, 204);
+}
+
+.e_gallery {
+  z-index: 9;
+  opacity: 0;
+  background-color: rgb(78, 194, 74);
+}
+.e_services {
+  z-index: 9;
+  opacity: 0;
+  background-color: rgb(110, 52, 165);
+}
+.e_contact {
+  z-index: 9;
+  opacity: 0;
+  background-color: rgb(204, 202, 61);
+}
+/** SECTIONS END **/
+
+/** MENU **/
+
+.menu {
+  position: absolute;
+  margin: auto;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  float: right;
+  width: 0%;
+  z-index: 101;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: -2px -2px 2px 2px rgba(0, 0, 0, 0.2);
+  border-top-left-radius: 1%;
+  border-bottom-left-radius: 1%;
+}
+.box {
+  position: relative;
+  cursor: pointer;
+  border-radius: 3%;
+  padding: 5%;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+  color: white;
+  opacity: 0;
+}
+
+/**MENU ICONS START **/
+
+.cancel-box {
+  cursor: pointer;
+}
+.cancel-icon {
+  position: absolute;
+  float: right;
+  right: 3%;
+  color: white !important;
+  margin-top: 2%;
+  margin-right: 1%;
+  z-index: 100;
+  cursor: pointer;
+  opacity: 0;
+}
+.hamburger {
+  position: absolute;
+  z-index: 200;
+  right: 3%;
+  top: 7%;
+  cursor: pointer;
+  float: right;
+  color: white !important;
+}
+/** MENU ICONS END **/
+/** MENU ENDS **/
