@@ -30,6 +30,7 @@ body {
   color: white;
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
 }
+
 /** SECTIONS  START  **/
 .page {
   display: block;
@@ -58,23 +59,68 @@ body {
 .e_about {
   z-index: 9;
   opacity: 0;
-  background-color: rgb(61, 71, 204);
+  background: linear-gradient(
+      0deg,
+      rgba(10, 10, 10, 0.7),
+      rgba(24, 22, 23, 0.7)
+    ),
+    url("assets/bg/about.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.e_gallery {
+.e_photos {
   z-index: 9;
   opacity: 0;
-  background-color: rgb(78, 194, 74);
+  background: linear-gradient(
+      0deg,
+      rgba(10, 10, 10, 0.7),
+      rgba(24, 22, 23, 0.7)
+    ),
+    url("assets/bg/photos.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.e_services {
+.e_team {
   z-index: 9;
   opacity: 0;
-  background-color: rgb(110, 52, 165);
+  background: linear-gradient(
+      0deg,
+      rgba(10, 10, 10, 0.7),
+      rgba(24, 22, 23, 0.7)
+    ),
+    url("assets/bg/team.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.e_videos {
+  z-index: 9;
+  opacity: 0;
+  background: linear-gradient(
+      0deg,
+      rgba(10, 10, 10, 0.7),
+      rgba(24, 22, 23, 0.7)
+    ),
+    url("assets/bg/videos.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .e_contact {
   z-index: 9;
   opacity: 0;
-  background-color: rgb(204, 202, 61);
+  background: linear-gradient(
+      0deg,
+      rgba(10, 10, 10, 0.7),
+      rgba(24, 22, 23, 0.7)
+    ),
+    url("assets/bg/contact.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 /** SECTIONS END **/
 
@@ -89,7 +135,7 @@ body {
   float: right;
   width: 0%;
   z-index: 101;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
   box-shadow: -2px -2px 2px 2px rgba(0, 0, 0, 0.2);
   border-top-left-radius: 1%;
   border-bottom-left-radius: 1%;
@@ -99,7 +145,6 @@ body {
   cursor: pointer;
   border-radius: 3%;
   padding: 5%;
-  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
   color: white;
   opacity: 0;
 }

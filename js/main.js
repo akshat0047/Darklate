@@ -8,12 +8,12 @@ $(document).ready(function() {
       left: "2%",
       height: "95%"
     });
-    $(".menu").animate({ width: "95%", opacity: 1 });
+    $(".menu").animate({ width: "95%", opacity: 1 }, 300);
 
     setTimeout(() => {
       $(".cancel-icon").animate({ opacity: 1 });
-      $(".box").animate({ opacity: 1 });
-    }, 800);
+      $(".box").animate({ opacity: 0.9 });
+    }, 700);
   });
 
   $(".cancel-icon").click(() => {
@@ -45,7 +45,7 @@ $(document).ready(function() {
           break;
         case "3":
           close_menu();
-          $(".e_gallery").animate({
+          $(".e_photos").animate({
             opacity: "1",
             width: "100%",
             height: "100%"
@@ -53,7 +53,7 @@ $(document).ready(function() {
           break;
         case "4":
           close_menu();
-          $(".e_services").animate({
+          $(".e_team").animate({
             opacity: "1",
             width: "100%",
             height: "100%"
@@ -61,7 +61,7 @@ $(document).ready(function() {
           break;
         case "5":
           close_menu();
-          $(".e_contact").animate({
+          $(".e_videos").animate({
             opacity: "1",
             width: "100%",
             height: "100%"
@@ -84,11 +84,11 @@ $(document).ready(function() {
 function close_menu() {
   $(".main-heading").animate({ opacity: "1" });
   $(".hamburger").animate({ opacity: "1" });
-  $(".box").animate({ opacity: 0 });
+  $(".box").animate({ opacity: 0 }, 300);
   $("section").animate({ left: "0%", height: "100%" });
   $(".cancel-icon").animate({ opacity: 0 });
 
   setTimeout(() => {
     $(".menu").animate({ width: "0%", opacity: 0 });
-  }, 600);
+  }, 300);
 }

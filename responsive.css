@@ -31,11 +31,11 @@
   }
   .r-chip-1 {
     position: relative;
-    bottom: 15px;
+    bottom: 10px;
   }
   .r-chip-2 {
     position: relative;
-    top: 15px;
+    top: 10px;
   }
   .menu {
     height: 75%;
@@ -50,7 +50,15 @@
   .icon {
     top: 15%;
     color: rgba(255, 255, 255, 1) !important;
-    font-size: 3em;
+    font-size: 2.6em;
+  }
+  .menu-label {
+    font-family: "PT Sans Caption", sans-serif;
+    position: relative;
+    font-size: 0.8em;
+    white-space: nowrap;
+    padding-top: 4%;
+    letter-spacing: 10%;
   }
 }
 @media only screen and (min-width: 701px) {
@@ -93,8 +101,14 @@
   }
   .icon {
     position: relative;
-    top: 19%;
     color: rgba(255, 255, 255, 1) !important;
-    font-size: 4.7em;
+    font-size: 4.4em;
+  }
+  .menu-label {
+    font-family: "PT Sans Caption", sans-serif;
+    position: relative;
+    font-size: 1.3em;
+    padding-top: 4%;
+    letter-spacing: 10%;
   }
 }
