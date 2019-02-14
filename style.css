@@ -10,13 +10,24 @@ body {
   overflow: hidden;
   background-color: black;
 }
-
+.wrapped-up {
+  position: relative;
+  opacity: 1;
+  cursor: context-menu;
+}
 /** TEXT SECTION **/
 
 .main-heading {
   position: relative;
   color: white;
   text-align: center;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+.about-heading {
+  position: relative;
+  color: white;
+  text-align: center;
+  border-bottom: 1px solid white;
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
 }
 .h-1 {
@@ -44,8 +55,8 @@ body {
   height: 100%;
 }
 .home {
-  z-index: 11;
-  opacity: 1;
+  z-index: 8;
+  opacity: 0;
   background: linear-gradient(
       0deg,
       rgba(10, 10, 10, 0.7),
@@ -57,7 +68,7 @@ body {
   background-repeat: no-repeat;
 }
 .e_about {
-  z-index: 9;
+  z-index: 8;
   opacity: 0;
   background: linear-gradient(
       0deg,
@@ -84,8 +95,8 @@ body {
   background-repeat: no-repeat;
 }
 .e_team {
-  z-index: 9;
-  opacity: 0;
+  z-index: 8;
+  opacity: 1;
   background: linear-gradient(
       0deg,
       rgba(10, 10, 10, 0.7),
@@ -97,7 +108,7 @@ body {
   background-repeat: no-repeat;
 }
 .e_videos {
-  z-index: 9;
+  z-index: 8;
   opacity: 0;
   background: linear-gradient(
       0deg,
@@ -110,7 +121,7 @@ body {
   background-repeat: no-repeat;
 }
 .e_contact {
-  z-index: 9;
+  z-index: 8;
   opacity: 0;
   background: linear-gradient(
       0deg,
@@ -176,3 +187,76 @@ body {
 }
 /** MENU ICONS END **/
 /** MENU ENDS **/
+
+/**ABOUT US START**/
+
+/**ABOUT US END**/
+
+/** PHOTOS START **/
+
+.film-box:hover {
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+.strip-element {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.gl {
+  position: absolute;
+  font-size: 1.3em;
+  color: rgba(251, 251, 251, 0.8);
+  left: -3%;
+  top: 45%;
+}
+.gr {
+  position: absolute;
+  font-size: 1.3em;
+  color: rgba(251, 251, 251, 0.8);
+  right: -3.5%;
+  bottom: 35%;
+}
+.photo-content {
+  position: absolute;
+  margin: auto;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+/** PHOTOS END **/
+
+.content-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.about-content {
+  position: absolute;
+  color: white;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+/** TEAM SECTION START **/
+.team-member-name {
+  position: absolute;
+  right: 0px;
+  top: 18%;
+  padding-right: 3%;
+  text-align: right;
+  font-size: 2em;
+  font-family: "PT Sans Caption", sans-serif;
+}
+.team-row {
+  position: relative;
+  top: 10%;
+}
+.team-column {
+  position: relative;
+  width: 100%;
+  height: 25vh;
+}
+/** TEAM SECTION END **/

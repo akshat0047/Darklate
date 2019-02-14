@@ -45,12 +45,22 @@
       href="https://fonts.googleapis.com/css?family=PT+Sans+Caption"
       rel="stylesheet"
     />
-    <script type="module" src="js/typed/typed.js"></script>
+
     <!--====== MAIN STYLESHEETS ======-->
+    <link href="lightbox2-master/src/css/lightbox.css" rel="stylesheet" />
     <link href="style.css" rel="stylesheet" />
     <link href="responsive.css" rel="stylesheet" />
-
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script type="module" src="js/typed/typed.js"></script>
     <!--[if lt IE 9]>
       <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -108,7 +118,7 @@
     </div>
 
     <section class="page home">
-      <div class="main-heading">
+      <div class="main-heading wrapped-up">
         <div class="row">
           <div
             class="offset-xl-2 offset-lg-2 offset-md-1 offset-sm-1 offset-1 col-xl-4 col-lg-4 col-md-4 col-sm-10 col-10 border-box"
@@ -124,9 +134,108 @@
         </div>
       </div>
     </section>
-    <section class="page e_about"></section>
-    <section class="page e_photos"></section>
-    <section class="page e_team"></section>
+    <section class="page e_about">
+      <div class="content-container wrapped-up about-content">
+        <p class="about-heading">ABOUT US</p>
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+            <p class="about-para-1">
+              aptent taciti sociosqu ad litora torquent per conubia nostra, per
+              inces himenos. Aenean ut ligula in risus cursus scelerisque.
+              Phasellus faucibus varius nibh, feugiat accumsan turpi non.
+              Aliquam vitae dui iaculis lorem vehicula interdum. Nulla Aliquam
+              vitae dui iaculis lorem vehicula interdum. Nulla ultricies ipsum
+              ac sem elementum, id aliquet purus lobortis. Vivamus metus dolor,
+              pharetra nec metus sed, eleifend imperdiet quam.
+            </p>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+            <p class="about-para-2">
+              aptent taciti sociosqu ad litora torquent per conubia nostra, per
+              inceptos himenaeos. Quisque vitae feugiat tortor. Nullam metus
+              massa, fermentum scelerisque ornare sed, lacinia vel lectus.
+              Maecenas interdum turpis eget ornare rhoncus. Etiam posuere
+              egestas blandit.Aliquam vitae dui iaculis lorem vehicula interdum.
+              Nulla ultricies ipsum ac sem elementum, id aliquet purus lobortis.
+              Vivamus metus dolor, pharetra nec metus sed, eleifend imperdiet
+              quam.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div
+            class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center"
+          >
+            <img class="signature" src="assets/elements/signature.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page e_photos">
+      <div class="content-container wrapped-up">
+        <p class="about-heading">PHOTO GALLERY</p>
+        <div class="row">
+          <div
+            class="offset-xl-3 offset-lg-3 offset-md-3 offset-sm-1 offset-1 col-xl-6 col-lg-6 col-md-6 col-sm-10 col-10 text-center"
+          >
+            <img src="assets/gallery/g1.jpg" class="picture-box" />
+          </div>
+
+          <div
+            class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center"
+          >
+            <div class="filmstrip">
+              <div class="film-box">
+                <img src="assets/gallery/g1.jpg" class="strip-element" />
+              </div>
+              <div class="film-box">
+                <img src="assets/gallery/g2.jpg" class="strip-element" />
+              </div>
+              <div class="film-box">
+                <img src="assets/gallery/g3.jpg" class="strip-element" />
+              </div>
+              <div class="film-box">
+                <img src="assets/gallery/g1.jpg" class="strip-element" />
+              </div>
+              <div class="film-box">
+                <img src="assets/gallery/g2.jpg" class="strip-element" />
+              </div>
+              <div class="film-box">
+                <img src="assets/gallery/g2.jpg" class="strip-element" />
+              </div>
+              <div class="film-box">
+                <img src="assets/gallery/g3.jpg" class="strip-element" />
+              </div>
+              <div class="film-box">
+                <img src="assets/gallery/g3.jpg" class="strip-element" />
+              </div>
+              <div class="film-box">
+                <img src="assets/gallery/g3.jpg" class="strip-element" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="page e_team">
+      <div class="content-container wrapped-up about-content">
+        <p class="about-heading">OUR TEAM</p>
+        <div class="row team-row">
+          <div
+            class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 border-box team-column"
+          >
+            <p class="team-member-name">
+              AKSHAT PANDE <br />
+              <span class="duty"></span>
+            </p>
+          </div>
+          <div
+            class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 team-column"
+          ></div>
+        </div>
+      </div>
+    </section>
     <section class="page e_videos"></section>
     <section class="page e_contact"></section>
 

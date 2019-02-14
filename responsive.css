@@ -1,4 +1,4 @@
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 400px) {
   .main-heading {
     margin-top: 48%;
     line-height: 1.8em;
@@ -60,8 +60,197 @@
     padding-top: 4%;
     letter-spacing: 10%;
   }
+  .content-container {
+    position: relative;
+    color: white;
+    top: 5%;
+  }
+  .about-heading {
+    position: relative;
+    font-family: "PT Sans Caption", sans-serif;
+    font-size: 1.4em;
+    letter-spacing: 3%;
+    margin-top: 10%;
+  }
+  .about-para-1 {
+    padding-top: 6%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+    font-size: 0.9em;
+  }
+  .about-para-2 {
+    display: none;
+  }
+  .signature {
+    position: relative;
+    width: 60%;
+    filter: invert(1);
+    height: 85%;
+    top: 10px;
+    right: 1%;
+  }
+  .picture-box {
+    position: relative;
+    width: 87%;
+    height: 100%;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+    border: 2px solid rgba(251, 251, 251, 0.1);
+  }
+  .filmstrip {
+    position: relative;
+    display: inline-block !important;
+    width: 100%;
+    height: 45%;
+    top: 24%;
+    left: 0px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    overflow: hidden;
+  }
+  .film-box {
+    position: relative;
+    display: inline-block !important;
+    width: 14% !important;
+    height: 10% !important;
+    margin-left: 6px;
+    margin-right: 6px;
+    transition: all 0.3s;
+  }
+  .scroll-dialog {
+    display: none;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 700px) {
+  .mobile {
+    display: none;
+  }
+  .main-heading {
+    margin-top: 48%;
+    line-height: 1.8em;
+  }
+  .h-1 {
+    font-size: 2em;
+    letter-spacing: 2%;
+  }
+  .h-2 {
+    font-size: 1.7em;
+    white-space: nowrap;
+    letter-spacing: 2%;
+    font-weight: 200;
+  }
+  .typing-box {
+    position: relative;
+  }
+  .t1 {
+    position: relative;
+    padding-top: 2%;
+    font-size: 2.7em;
+    font-weight: 130;
+    letter-spacing: 3%;
+  }
+  .box {
+    width: 110%;
+    height: 80%;
+    margin-top: 30%;
+    margin-bottom: 30%;
+  }
+  .r-chip-1 {
+    position: relative;
+    bottom: 10px;
+  }
+  .r-chip-2 {
+    position: relative;
+    top: 10px;
+  }
+  .menu {
+    height: 75%;
+  }
+  .menu-box {
+    position: relative;
+    margin: auto;
+    padding: 5%;
+    margin-right: 2%;
+    top: 15%;
+  }
+  .icon {
+    top: 15%;
+    color: rgba(255, 255, 255, 1) !important;
+    font-size: 2.6em;
+  }
+  .menu-label {
+    font-family: "PT Sans Caption", sans-serif;
+    position: relative;
+    font-size: 0.8em;
+    white-space: nowrap;
+    padding-top: 4%;
+    letter-spacing: 10%;
+  }
+  .content-container {
+    position: relative;
+    color: white;
+    top: 5%;
+  }
+  .about-heading {
+    position: relative;
+    font-family: "PT Sans Caption", sans-serif;
+    font-size: 1.4em;
+    letter-spacing: 3%;
+    margin-top: 10%;
+  }
+  .about-para-1 {
+    padding-top: 6%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+    font-size: 0.9em;
+  }
+  .about-para-2 {
+    display: none;
+  }
+  .signature {
+    position: relative;
+    width: 60%;
+    filter: invert(1);
+    height: 85%;
+    top: 10px;
+    right: 1%;
+  }
+  .picture-box {
+    position: relative;
+    width: 50vw;
+    height: 100%;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+    border: 2px solid rgba(251, 251, 251, 0.1);
+  }
+  .filmstrip {
+    position: relative;
+    display: inline-block !important;
+    width: 100%;
+    height: 45%;
+    top: 24%;
+    left: 0px;
+    overflow: hidden;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+  }
+  .film-box {
+    position: relative;
+    display: inline-block !important;
+    width: 14% !important;
+    height: 10% !important;
+    margin-left: 6px;
+    margin-right: 6px;
+    transition: all 0.3s;
+  }
+  .scroll-dialog {
+    display: none;
+  }
 }
 @media only screen and (min-width: 701px) {
+  .mobile {
+    display: none;
+  }
   .main-heading {
     line-height: 3em;
     margin-top: 18%;
@@ -71,6 +260,11 @@
   }
   .border-box {
     border-right: 2px solid white;
+  }
+  .t1 {
+    position: relative;
+    width: 100%;
+    height: 70%;
   }
   .h-1 {
     font-size: 3em;
@@ -110,5 +304,61 @@
     font-size: 1.3em;
     padding-top: 4%;
     letter-spacing: 10%;
+  }
+  .about-para-1 {
+    padding-top: 6%;
+    padding-bottom: 6%;
+    padding-left: 12%;
+    padding-right: 3%;
+    text-align: left;
+  }
+  .about-para-2 {
+    padding-top: 6%;
+    padding-bottom: 6%;
+    padding-left: 3%;
+    padding-right: 12%;
+    text-align: left;
+  }
+  .about-heading {
+    position: relative;
+    font-family: "PT Sans Caption", sans-serif;
+    font-size: 2.7em;
+    letter-spacing: 3%;
+    margin: 5%;
+  }
+  .signature {
+    position: relative;
+    width: 22%;
+    filter: invert(1);
+    height: 55%;
+    top: 10px;
+    right: 1%;
+  }
+
+  .picture-box {
+    position: relative;
+    width: 30vw;
+    height: 85%;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+    border: 2px solid rgba(251, 251, 251, 0.1);
+    bottom: 5%;
+  }
+  .film-box {
+    position: relative;
+    display: inline-block !important;
+    width: 12% !important;
+    height: 10% !important;
+    margin-left: 6px;
+    margin-right: 6px;
+    transition: all 0.3s;
+  }
+  .filmstrip {
+    position: relative;
+    display: inline-block !important;
+    padding-top: 1%;
+    overflow: hidden;
+    width: 100%;
+    height: 42%;
+    bottom: 15%;
   }
 }
